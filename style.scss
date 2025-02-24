@@ -1,0 +1,12 @@
+$primary-Colour: #00f;
+$secodary-Colour: #ddd;
+$heading-Colour: #a09;
+
+body {
+    background-color: $secodary-Colour;
+    color: $primary-Colour;
+}
+
+h1{
+    color: $heading-Colour;
+}
