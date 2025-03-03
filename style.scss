@@ -13,12 +13,13 @@ h1{
 
 $local-variable: 20px;
 
-h2{
-    font-size: $local-variable;
-}
-
 .container {
     $local-variable: 10px;
     margin: $local-variable;
 }
 
+//$local-variable: 30px default;
+
+h2{
+    font-size: $local-variable;
+}
