@@ -10,3 +10,15 @@ body {
 h1{
     color: $heading-Colour;
 }
+
+$local-variable: 20px;
+
+h2{
+    font-size: $local-variable;
+}
+
+.container {
+    $local-variable: 10px;
+    margin: $local-variable;
+}
+
