@@ -7,10 +7,41 @@ h1 {
   color: #a09;
 }
 
+/*
 .container {
-  margin: 10px;
+    $local-variable: 10px;
+    margin: $local-variable;
 }
-
+*/
 h2 {
   font-size: 20px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.container .header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+.container .header h1 {
+  font-size: 2rem;
+}
+.container .content {
+  padding: 20px;
+}
+
+.button {
+  background-color: #3498db;
+  color: white;
+}
+.button-blue {
+  background-color: blue;
+  font-size: 20px;
+}
+.button-red {
+  background-color: red;
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */

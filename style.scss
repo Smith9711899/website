@@ -12,14 +12,48 @@ h1{
 }
 
 $local-variable: 20px;
-
+/*
 .container {
     $local-variable: 10px;
     margin: $local-variable;
 }
-
+*/
 //$local-variable: 30px default;
 
 h2{
     font-size: $local-variable;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+  
+    .header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+  
+        h1 {
+            font-size: 2rem;
+        }
+    }
+
+    .content {
+        padding: 20px;
+    }
+}
+
+.button {
+    background-color: #3498db;
+    color: white;
+  
+    &-blue {
+        background-color: blue;
+        font-size: 20px;
+    }
+  
+    &-red {
+        background-color: red;
+        font-size: 12px;
+    }
 }
